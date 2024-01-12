@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  background-color: var(--color-bg-secondary);
+  height: 70px;
+}
+
+.dsf-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dsf-brand {
+  color: var(--color-font-primary);
+  font-size: 20px;
+}
+
+.dsf-header span {
+  color: var(--color-font-primary);
+  font-weight: 700;
+  font-size: 12px;
+}

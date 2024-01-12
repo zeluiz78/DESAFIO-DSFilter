@@ -1,0 +1,43 @@
+.filter-form {
+  padding: 20px;
+  background-color: var(--color-bg-tertiary);
+  display: grid;
+  grid-gap: 20px;
+  border-radius: 5px;
+}
+
+.filter-form input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--color-input-border);
+  width: 200px;
+}
+
+.filter-form input:focus {
+  outline: none;
+}
+
+.dsf-btn {
+  width: 200px;
+}
+
+.dsf-btn button {
+  width: 100%;
+  padding: 10px 0;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.filter-btn button {
+  background-color: var(--color-bg-secondary);
+  color: var(--color-font-primary);
+}
+
+.clear-filter-btn button {
+  background-color: var(--color-bg-tertiary);
+  color: var(--color-font-secondary);
+  border: 1px solid var(--color-card-border);
+}

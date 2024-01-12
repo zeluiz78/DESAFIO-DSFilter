@@ -1,0 +1,10 @@
+#listing-section {
+  background-color: var(--color-bg-tertiary);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.listing-ctr {
+  display: grid;
+  grid-gap: 10px;
+}
